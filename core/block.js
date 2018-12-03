@@ -14,6 +14,6 @@ export default class Block {
 	calculateHash() {
 		hash.update(this.index + this.previousHash + this.timestamp + 
 												JSON.stringify(this.data) + this.nonce)
-		return hash.digest('base64')
+		return hash.digest('hex')
 	}
 }
