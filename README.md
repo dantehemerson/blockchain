@@ -6,4 +6,4 @@
 
 #### Research
 
-![Block](./github/blocks.png)
+![Block](.github/blocks.png)
